@@ -1,0 +1,165 @@
+html{
+  font-size: 10px;
+  font-family: 'Fanwood Text', serif;
+}
+
+body{
+  background-color: #E7ECEF;
+  color: #E85A4F;
+  font-size: 1.6rem;
+  margin:0;
+  padding:0;
+}
+hr{
+  border-color:#0F7173;
+  border-width: 1px;
+  border-style: solid;
+  margin-left:300px;
+  margin-right: 300px;
+}
+/* navigation */
+#navbar {
+  position: fixed;
+  top:0;
+  width:100%;
+  background-color: #E85A4F;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin:0;
+}
+
+#navbar ul{
+  list-style: none;
+}
+
+#navbar ul li{
+padding:15px;
+margin:0;
+display:inline;
+font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  color: #E7ECEF;
+}
+
+
+
+#navbar ul li:hover{
+background-color: rgba(162, 31, 21, 1);
+height:100%;
+
+}
+
+/* welcome section */
+#welcome-section{
+  height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#intro{
+  padding:0;
+  margin:0;
+  font-size:5rem;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#intro-p{
+  padding:0;
+  margin:0;
+  font-size:2rem;
+  color: grey;
+  font-family: 'Fanwood Text', serif;
+}
+
+
+/* projects section */
+#projects{
+  background-color: #E7ECEF;
+  text-align:center;
+  width:100%;
+  padding:0px 0 10px 0;
+}
+
+#projects-grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #30323D;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+#work-h{
+      font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#contact-h{
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.project-tile{
+  border:solid 2px;
+  border-radius: 2px;
+  background-color: white;
+  color: #696D70;
+  margin-bottom:50px;
+  font-size: 2rem;
+}
+
+.project-title{
+  margin: 5px;
+}
+
+.image-tile{
+  border-bottom: solid #30323D;
+  width:100%;
+}
+
+
+
+/* contact me section */
+#contact-me{
+  text-align:center;
+}
+
+#contact-wrapper{
+display:flex;
+width: 100%;
+margin:auto;
+justify-content: center;
+flex-wrap: wrap;
+max-width:900px;
+
+}
+
+.profile-link{
+padding:10px;
+font-size:3.5rem;
+text-decoration: none;
+font-family: 'Quattrocento Sans', sans-serif;
+color: #E85A4F;
+}
+.profile-link a{
+  color: #E85A4F;
+}
+
+.profile-link:hover{
+color: rgba(162, 31, 21, 1);
+}
+
+.icon{
+  padding:10px;
+  color: #0F7173;
+}
+
+.profile-link{
+  color:grey;
+}
